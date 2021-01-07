@@ -37,9 +37,13 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
+    margin-bottom: 20px;
     display: block;
     border-radius: 10px;
-    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     z-index: 1000px;
   }
 
@@ -107,7 +111,7 @@ body {
   
   .crossword-board__item {
     border: 1px solid #ffce03;
-    background: white;
+    background: none;
     position: relative;
     z-index: 100;
     text-align: center;
@@ -148,6 +152,9 @@ body {
     line-height: 1;
     font-family: PT Sans;
     font-weight: bold;
+    z-index: 5;
+    margin-left: -10px;
+    margin-top: -10px;
   }
   
   .crossword-board__item-label--1 {
