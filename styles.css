@@ -30,7 +30,6 @@ body {
   .submitbtn{
     border: none;
     color: #FFFFFF;
-    background-color: #8f5fde;
     font-family: PT Sans;
     font-weight: bold;
     font-size: 20px;
@@ -45,6 +44,8 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     z-index: 1000px;
+    width: 170px;
+    height: 45px;
   }
 
   .boards{
@@ -60,7 +61,6 @@ body {
     margin-bottom: 100px; 
     margin-left: auto;
     margin-right: auto;
-    margin-top: -50px;
     display: block;
   }
 
@@ -123,7 +123,7 @@ body {
   }
 
   .crossword-board__item:active, .crossword-board__item:focus {
-    background: #8f5fde;
+    background: #cda502;
     border: 1px solid #000000;
     outline: 1px solid #000000;
   }
@@ -225,7 +225,9 @@ body {
   }
 
   #checkvaliditems {
-    background: #008f70;
+    background: url(submit-button.png);
+    background-size: 170px 45px;
+    background-repeat: no-repeat;
     cursor: pointer;
     top: 1046px;
     left: 550px;
@@ -234,7 +236,7 @@ body {
   [for="checkvaliditems"] {
     padding: 10px 10px 10px 40px;
     display: inline-block;
-    background: #8f5fde;
+    background: none;
     color: #FFFFFF;
     cursor: pointer;
     font-family: PT Sans;
