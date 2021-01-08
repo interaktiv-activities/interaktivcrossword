@@ -112,7 +112,7 @@ function validateAnswer(){
    )
    {
        //document.getElementById("output").innerHTML = "CORRECT!";
-       alert("CONGRATULATIONS! You have passed this test! The SECRET CODE is 'EMERGENCY'");
+       alert("CONGRATULATIONS! You have passed this test! The SECRET CODE is 'ROMANCON'");
    } else {
        //document.getElementById("output").innerHTML ="WRONG!";
        alert("FAIL! Please Try Again!");
