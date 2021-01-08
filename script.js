@@ -112,10 +112,10 @@ function validateAnswer(){
    )
    {
        //document.getElementById("output").innerHTML = "CORRECT!";
-       alert("CONGRATULATIONS! You have passed this test! The SECRET CODE is ‘ROMANCON’”);
+       alert("Congratulations! The secret code for the next portal is 'ROMANCON'. Go back to the portal menu and head over to your next adventure!");
    } else {
        //document.getElementById("output").innerHTML ="WRONG!";
-       alert("FAIL! Please Try Again!");
+       alert("Please Try Again! Seems like your answer is wrong.");
    }
 
 }
