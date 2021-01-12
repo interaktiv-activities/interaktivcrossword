@@ -46,6 +46,17 @@ body {
     z-index: 1000px;
     width: 170px;
     height: 45px;
+    transition: width 100ms ease-in-out, height 100ms ease-in-out;
+  }
+
+  #checkvaliditems {
+    background: url(submit-button.png);
+    background-size: 170px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    top: 1046px;
+    left: 550px;
+    transition: width 100ms ease-in-out, height 100ms ease-in-out;
   }
 
   .boards{
@@ -62,6 +73,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    transition: width 100ms ease-in-out, height 100ms ease-in-out;
+  }
+
+  .back-btn:hover{
+    width: 220px;
   }
 
     /*
@@ -119,7 +135,6 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     font-family: PT Sans;
-    
   }
 
   .crossword-board__item:active, .crossword-board__item:focus {
@@ -222,15 +237,6 @@ body {
   ~ .crossword-board-container
   .crossword-board__item:invalid {
     background: #ff1160;
-  }
-
-  #checkvaliditems {
-    background: url(submit-button.png);
-    background-size: 170px 45px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    top: 1046px;
-    left: 550px;
   }
   
   [for="checkvaliditems"] {
